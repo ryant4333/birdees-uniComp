@@ -1,0 +1,53 @@
+body {
+  background-color: #ED008C;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.column {
+  text-align: center;
+  color: white;
+  font-size: 6vw;
+  border: solid;
+  width: 50%;
+}
+
+#UQcol {
+  background-color: #49085D;
+  border-radius: 60px 0px 0px 60px;
+}
+
+.animate {
+  -webkit-animation-name: example;
+  animation-duration: 0.15s;
+}
+
+@keyframes example {
+  from {transform: scale(1.0);}
+  to {transform: scale(1.1);}
+}
+
+#QUTcol {
+  background-color: #004681;
+  border-radius: 0px 60px 60px 0px;
+}
+
+#head {
+  text-align: center;
+  color: white;
+}
+
+#timerBox {
+  text-align: center;
+  width: 100%;
+}
+
+p {
+  color: white;
+  font-size: 8vw;
+  margin: 0px;
+}
