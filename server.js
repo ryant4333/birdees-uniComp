@@ -3,8 +3,8 @@ const app = express();
 const http = require('http').Server(app);
 const io = require('socket.io')(http);
 
-let UQ = "Birdees";
-let QUT = "Sundays?";
+let UQ = 0;
+let QUT = 0;
 
 function incUQ() {
     UQ+=1;
