@@ -14,3 +14,5 @@ A count of the students in the venue needed to be displayed on the screen and a 
 Glitch.me was used to host a full stack node app. As the app was fairly simple the browser based hosting service was suitable and allowed quick changes when needed.
 Express was used as the framework, and sockets were used to live update the screen.  Buttons for incrementing the scores were displayed and played a small scale animation upon incrementing.
 Plain CSS was used to style the app.
+
+![App in use Image]
